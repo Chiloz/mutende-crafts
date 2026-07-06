@@ -12,7 +12,7 @@ if (!isset($activePage)) {
       Mutende Crafts
     </a>
     <nav class="links">
-      <a href="home.php" class="<?php echo $activePage === 'home' ? 'active-link' : ''; ?>">Home</a>
+      <a href="index.php" class="<?php echo $activePage === 'home' ? 'active-link' : ''; ?>">Home</a>
       <a href="about.php" class="<?php echo $activePage === 'about' ? 'active-link' : ''; ?>">About</a>
       <a href="blog.php" class="<?php echo $activePage === 'blog' ? 'active-link' : ''; ?>">Blog</a>
       <div class="nav-dropdown" id="galleryDropdown">
